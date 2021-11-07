@@ -43,10 +43,12 @@ body{
 /*TERCERA TARJETA*/
 .third_card{
     width: 95%;
+    height: 100%;
     margin:50px auto;
     background-color: #ffffff;
     border-radius: 1em;
     transition: 0.3s;
+    
 }
 .third_card:hover{
     box-shadow: 10px 10px 40px rgba(224, 224, 224, 0.219);
@@ -54,7 +56,7 @@ body{
 } 
 .third_card_img{
     width: 100%;
-    height: 40%;
+    height: 50vh;
     background-image: 
     linear-gradient(96deg, rgba(43,228,5,0.6) 15%, rgba(251,143,0,0.40940126050420167) 45%, rgba(244,239,73,0.6) 80%),url(./img/char.jpg);
     background-size: cover;
@@ -66,6 +68,7 @@ body{
     flex-direction: column;
     padding: 1em 2em 2em 2em;
     gap: 0.4em;
+    
 }
 .third_card_container label{
     font-size: 0.7em;
@@ -88,10 +91,12 @@ body{
     flex-direction: row;
     align-items: center;
     gap: 1em;
+    
 }
 .third_card_foot img {
     width: 50px;
     border-radius: 50%;
+    
 }
 
 
