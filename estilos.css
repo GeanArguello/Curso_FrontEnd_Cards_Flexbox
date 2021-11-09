@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: MD Primer Bold,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    
 }
 body{
-    background-color: #262626;;
+    background-color: #262626;
+    font-family: MD Primer Bold,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
 }
 
-/* Primera Tarjeta*/
+/* Tarjeta Pequeña */
 
 .first_card{
     width: 95%;
@@ -18,7 +19,7 @@ body{
     transition: 0.3s;
 }
 .first_card:hover{
-    box-shadow: 10px 10px 40px rgba(224, 224, 224, 0.219);
+    box-shadow: 10px 10px 40px rgba(224, 224, 224, 0.548);
     transform: translateY(10px);
 }
 .card_container{
@@ -40,7 +41,7 @@ body{
     font-size: 1em;
 }
 
-/*TERCERA TARJETA*/
+/*Tarjeta Grande*/
 .third_card{
     width: 95%;
     height: 100%;
@@ -68,7 +69,6 @@ body{
     flex-direction: column;
     padding: 1em 2em 2em 2em;
     gap: 0.4em;
-    
 }
 .third_card_container label{
     font-size: 0.7em;
@@ -94,7 +94,7 @@ body{
     
 }
 .third_card_foot img {
-    width: 50px;
+    width: 3em;
     border-radius: 50%;
     
 }
@@ -102,7 +102,7 @@ body{
 
 /* MEDIA QUERIES */
 
-@media(min-width: 574px) and (max-width: 930px) {
+@media(min-width: 574px) {
     body {
         width: 90%;
         margin: 50px auto;
@@ -112,6 +112,7 @@ body{
     .first_card{
         margin: 0 auto;
         width: 100%;
+        height: 100%;
     }
     .third_card{
         margin: 0 auto;
@@ -128,5 +129,4 @@ body{
     .card_grande{
         width: 100%;
     }
-
   }
